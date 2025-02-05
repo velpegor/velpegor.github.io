@@ -53,10 +53,10 @@
     .paper-box-image{
         justify-content: center;
         display: flex;
-        width: 80%;
+        width: 100%;
         order: 2;
         img {
-            max-width: 400px;
+            max-width: 350px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
         }
