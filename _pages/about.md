@@ -24,8 +24,8 @@ I am a master student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #72
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/MPVG.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/MPVG.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1" style="max-width: 100%;">
 
 Maximizing the Position Embedding for Vision Transformers with Global Average Pooling
 
