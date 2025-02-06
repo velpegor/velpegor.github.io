@@ -27,7 +27,7 @@ I am a master student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #72
 * ## Maximizing the Position Embedding for Vision Transformers with Global Average Pooling <br>
    **Wonjun Lee**, Bumsub Ham, Suhyun Kim <br>
    Association for the Advancement of Artificial Intelligence (<span style="color:darkred">**AAAI**</span>) 2025  <br>
-   [[Project Page]](https://velpegor.github.io/MPVG) 
+   [[arxiv]](https://arxiv.org/abs/2502.02919) / [[Project Page]](https://velpegor.github.io/MPVG) 
 
 # 📖 Educations
 - *2024.03 - Present*, M.S. in Electrical and Electronic Engineering, <a href="https://www.yonsei.ac.kr/en_sc/index.jsp" style="color: #7289da; text-decoration: none;">Yonsei University</a>.
