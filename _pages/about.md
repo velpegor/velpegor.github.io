@@ -31,7 +31,7 @@ I am a Master's student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #
 
 # 📖 Educations
 - *2024.03 - Present*, M.S. in Electrical and Electronic Engineering, Yonsei University.
-- *2018.03 - 2024.02*, B.S. in Sofeware Convergence, Kyunghee University.
+- *2018.03 - 2024.02*, B.S. in Software Convergence, Kyunghee University.
 
 # 💻 Work Experience
 - *2022.12 - 2023.06*, Research Intern in Center for Artificial Intelligence at Korea Institute of Science and Technology (KIST), Seoul, South Korea. 
