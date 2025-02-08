@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Master's student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a> at Yonsei University, currently advised by Prof. Bumsub Ham & <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> at Korea Institute of Science and Technology (KIST), currently advised by Dr. Suhyun Kim.
+I am a M.S. Student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a> at Yonsei University, currently advised by Prof. Bumsub Ham & <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> at Korea Institute of Science and Technology (KIST), currently advised by Dr. Suhyun Kim.
 
 # 🔥 News
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted to **AAAI 2025**  
