@@ -35,7 +35,7 @@ I am a master student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #72
 
 # 💻 Work Experience
 - *2022.12 - 2023.06*, Research Intern in Center for Artificial Intelligence at Korea Institute of Science and Technology (KIST), Seoul, South Korea. 
-- *2022.07 - 2023.06*, Undergraduate Research Intern at <a href="https://sites.google.com/view/khu-aims/home/" style="color: #7289da; text-decoration: none;">AIMS</a>, Kyunghee University, Yongin, South Korea. Prof. <a href="https://wonhee-lee.github.io/aboutme/" style="color: #7289da; text-decoration: none;">Wonhee Lee</a>
+- *2022.07 - 2023.06*, Undergraduate Research Intern at <a href="https://sites.google.com/view/khu-aims/home/" style="color: #7289da; text-decoration: none;">AIMS</a>, Kyunghee University, Yongin, South Korea.
 
 # 🎖 Honors and Awards
 
