@@ -30,11 +30,11 @@ I am a master student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #72
    [[arxiv]](https://arxiv.org/abs/2502.02919) / [[Project Page]](https://velpegor.github.io/MPVG) 
 
 # 📖 Educations
-- *2024.03 - Present*, M.S. in Electrical and Electronic Engineering, <a href="https://www.yonsei.ac.kr/en_sc/index.jsp" style="color: #7289da; text-decoration: none;">Yonsei University</a>.
-- *2018.03 - 2024.02*, B.S. in Sofeware Convergence, <a href="[https://www.kaist.ac.kr/en/](https://www.khu.ac.kr/eng/user/main/view.do)" style="color: #7289da; text-decoration: none;">Kyunghee University</a>.
+- *2024.03 - Present*, M.S. in Electrical and Electronic Engineering, Yonsei University.
+- *2018.03 - 2024.02*, B.S. in Sofeware Convergence, Kyunghee University.
 
 # 💻 Work Experience
-- *2022.12 - 2023.06*, Research Intern in Center for Artificial Intelligence at <a href="https://www.kist.re.kr/eng/index.do" style="color: #7289da; text-decoration: none;">KIST</a>, Seoul, South Korea. 
+- *2022.12 - 2023.06*, Research Intern in Center for Artificial Intelligence at Korea Institute of Science and Technology (KIST), Seoul, South Korea. 
 - *2022.07 - 2023.06*, Undergraduate Research Intern at <a href="https://sites.google.com/view/khu-aims/home/" style="color: #7289da; text-decoration: none;">AIMS</a>, Kyunghee University, Yongin, South Korea. Prof. <a href="https://wonhee-lee.github.io/aboutme/" style="color: #7289da; text-decoration: none;">Wonhee Lee</a>
 
 # 🎖 Honors and Awards
