@@ -20,9 +20,14 @@ redirect_from:
 I am a M.S. Student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a> at Yonsei University, currently advised by Prof. Bumsub Ham & <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> at Korea Institute of Science and Technology (KIST), currently advised by Dr. Suhyun Kim.
 
 # 🔥 News
+- *2025.02*: &nbsp;🎉🎉 New preprint is out: ELITE
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted to **AAAI 2025**  
 
 # 📝 Publications 
+* ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
+   **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
+   preprint  <br>
+   [[arxiv]](https://arxiv.org/abs/2502.04757) / [[Project Page]](https://velpegor.github.io/ELITE)
 
 * ## Maximizing the Position Embedding for Vision Transformers with Global Average Pooling <br>
    **Wonjun Lee**, Bumsub Ham, Suhyun Kim <br>
