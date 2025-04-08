@@ -21,7 +21,7 @@ I am a M.S. Student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289
 
 # 🔥 News
 - *2025.02*: &nbsp;🎉🎉 New preprint is out: ELITE
-- *2024.12*: &nbsp;🎉🎉 One paper has been accepted to **AAAI 2025**  
+- *2024.12*: &nbsp;🎉🎉 One paper is accepted to **AAAI 2025**  
 
 # 📝 Publications 
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
