@@ -20,9 +20,9 @@ redirect_from:
 I am a M.S. Student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a> at Yonsei University, currently advised by Prof. Bumsub Ham & <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> at Korea Institute of Science and Technology (KIST), currently advised by Dr. Suhyun Kim.
 
 # 🔥 News
-- *2025.05*: &nbsp;🎉🎉 One paper is accepted to **ICML 2025**  
+- *2025.05*: &nbsp;🎉🎉 One paper got accepted to **ICML 2025**  
 - *2025.02*: &nbsp;🎉🎉 New preprint is out: ELITE
-- *2024.12*: &nbsp;🎉🎉 One paper is accepted to **AAAI 2025**  
+- *2024.12*: &nbsp;🎉🎉 One paper got accepted to **AAAI 2025**  
 
 # 📝 Publications 
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
