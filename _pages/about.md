@@ -17,7 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a M.S. Student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a> at Yonsei University, currently advised by Prof. Bumsub Ham & <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> at Korea Institute of Science and Technology (KIST), currently advised by Dr. Suhyun Kim.
+I am an M.S. Student in <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a> at Yonsei University, currently advised by Prof. Bumsub Ham & <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> at Kyung Hee University, currently advised by Prof. Suhyun Kim.
+
+I am broadly interested in building responsible AI systems that can operate safely and reliably under real-world conditions, particularly in the face of adversarial or ambiguous multimodal inputs. My work also explores scalable and efficient architectures and training & inference strategies for large models, aiming to reduce computational overhead without compromising performance. 
+
+My recent research interests include the following topics:
+* Trustworthy and Safe AI
+* Efficient Training and Inference for Large Models
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 One paper got accepted to **ICML 2025**  
