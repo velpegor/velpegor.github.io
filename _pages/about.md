@@ -50,4 +50,11 @@ My recent research interests include the following topics:
 - *2022.07 - 2023.06*, Undergraduate Research Intern at <a href="https://sites.google.com/view/khu-aims/home/" style="color: #7289da; text-decoration: none;">AIMS</a>, Kyunghee University, Yongin, South Korea.
 
 # 🎖 Honors and Awards
+- *2023.02*, **Scholarship of Excellence** — Kyunghee University  
+- *2022.12*, **Excellence Award** — Junior Paper Awards, Korean Institute of Information Scientists and Engineers  
+- *2022.12*, **Silver Award** — SW Mileage, Kyunghee University  
+- *2022.12*, **Grand Prize** — Portfolio Contest, Kyunghee University  
+- *2022.11*, **Gold Award** — 2022 AI-hub Hackathon, Korean Institute of Smart Media  
+- *2022.11*, **Scholarship Student** — Gyeongju City  
+- *2022.09*, **Encouragement Award** — Club Contest, Kyunghee University  
 
