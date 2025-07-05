@@ -19,8 +19,7 @@ redirect_from:
 
 I am an M.S. student at Yonsei University in the <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a>, advised by Prof. Bumsub Ham, and also affiliated with <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> at Kyung Hee University (formerly at KIST), co-advised by Prof. Suhyun Kim.
 
-I am broadly interested in building trustworthy and safe AI systems that can operate reliably under real-world conditions. I am also interested in making large models more adaptable and efficient, while preserving their core capabilities.
-
+I am broadly interested in building trustworthy and safe AI systems that can operate reliably under real-world conditions. In parallel, I am also interested in making large models more adaptable and efficient, while preserving their core capabilities.
 My recent research interests include the following topics:
 * Trustworthy and Safe AI
 * Efficient Training and Inference for Large Models
