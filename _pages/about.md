@@ -34,12 +34,12 @@ My recent research interests include the following topics:
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
    **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    International Conference on Machine Learning (<span style="color:darkred">**ICML**</span>) 2025  <br>
-   [[paper]](https://openreview.net/forum?id=583klsIjNx) / [[Project Page]](https://velpegor.github.io/ELITE) 
+   [[Paper]](https://openreview.net/forum?id=583klsIjNx) / [[Project Page]](https://velpegor.github.io/ELITE) 
 
 * ## Maximizing the Position Embedding for Vision Transformers with Global Average Pooling <br>
    **Wonjun Lee**, Bumsub Ham, Suhyun Kim <br>
    Association for the Advancement of Artificial Intelligence (<span style="color:darkred">**AAAI**</span>) 2025  <br>
-   [[paper]](https://arxiv.org/abs/2502.02919) / [[Project Page]](https://velpegor.github.io/MPVG) 
+   [[Paper]](https://arxiv.org/abs/2502.02919) / [[Project Page]](https://velpegor.github.io/MPVG) 
 
 # 📖 Educations
 - *2024.03 - Present*, M.S. in Electrical and Electronic Engineering, Yonsei University.
