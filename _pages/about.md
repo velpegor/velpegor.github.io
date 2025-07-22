@@ -26,27 +26,27 @@ My recent research interests include the following topics:
 * Efficient Training and Inference for Large Models
 
 # 🔥 News
-- *2025.05*: &nbsp;🎉🎉 One paper got accepted to **ICML 2025**  
-- *2025.02*: &nbsp;🎉🎉 New preprint is out: ELITE
-- *2024.12*: &nbsp;🎉🎉 One paper got accepted to **AAAI 2025**  
+- *2025.05*: &nbsp;One paper got accepted to **ICML 2025**  
+- *2025.02*: &nbsp;New preprint is out: ELITE
+- *2024.12*: &nbsp;One paper got accepted to **AAAI 2025**  
 
 # 📝 Publications 
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
    **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    International Conference on Machine Learning (<span style="color:darkred">**ICML**</span>) 2025  <br>
-   [[arxiv]](https://arxiv.org/abs/2502.04757) / [[Project Page]](https://velpegor.github.io/ELITE)
+   [[paper]](https://openreview.net/forum?id=583klsIjNx) / [[Project Page]](https://velpegor.github.io/ELITE) 
 
 * ## Maximizing the Position Embedding for Vision Transformers with Global Average Pooling <br>
    **Wonjun Lee**, Bumsub Ham, Suhyun Kim <br>
    Association for the Advancement of Artificial Intelligence (<span style="color:darkred">**AAAI**</span>) 2025  <br>
-   [[arxiv]](https://arxiv.org/abs/2502.02919) / [[Project Page]](https://velpegor.github.io/MPVG) 
+   [[paper]](https://arxiv.org/abs/2502.02919) / [[Project Page]](https://velpegor.github.io/MPVG) 
 
 # 📖 Educations
 - *2024.03 - Present*, M.S. in Electrical and Electronic Engineering, Yonsei University.
 - *2018.03 - 2024.02*, B.S. in Software Convergence, Kyunghee University.
 
 # 💻 Work Experience
-- *2022.12 - 2023.06*, Research Intern in Center for Artificial Intelligence at Korea Institute of Science and Technology (KIST), Seoul, South Korea. 
+- *2022.12 - 2023.06*, Research Intern in the Center for Artificial Intelligence at Korea Institute of Science and Technology (KIST), Seoul, South Korea. 
 
 # 🎖 Honors and Awards
 - *2023.02*, **Academic Scholarship** — Kyunghee University  
