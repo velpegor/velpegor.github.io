@@ -23,7 +23,7 @@ I am broadly interested in building trustworthy and safe AI that can operate rel
 
 My recent research interests include the following topics:
 * Trustworthy and Safe AI
-* Efficient Training and Inference for Large Models
+* Efficient Architecture for Large Models
 
 # 🔥 News
 - *2025.05*: &nbsp;One paper got accepted to **ICML 2025**  
