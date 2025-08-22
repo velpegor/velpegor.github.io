@@ -26,15 +26,15 @@ My recent research interests include the following topics:
 * Efficient Architecture for Large Models
 
 # 🔥 News
-- *2025.05*: &nbsp;One paper got accepted to **ICML 2025**  
+- *2025.05*: &nbsp;One paper is accepted to **ICML 2025**  
 - *2025.02*: &nbsp;New preprint is out: ELITE
-- *2024.12*: &nbsp;One paper got accepted to **AAAI 2025**  
+- *2024.12*: &nbsp;One paper is accepted to **AAAI 2025**  
 
 # 📝 Publications 
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
    **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    International Conference on Machine Learning (<span style="color:darkred">**ICML**</span>) 2025  <br>
-   [[Paper]](https://openreview.net/forum?id=583klsIjNx) / [[Project Page]](https://velpegor.github.io/ELITE) 
+   [[Paper]](https://openreview.net/forum?id=583klsIjNx) / [[Project Page]](https://velpegor.github.io/ELITE) / [[Dataset]](https://huggingface.co/datasets/kdst/ELITE)
 
 * ## Maximizing the Position Embedding for Vision Transformers with Global Average Pooling <br>
    **Wonjun Lee**, Bumsub Ham, Suhyun Kim <br>
@@ -43,18 +43,18 @@ My recent research interests include the following topics:
 
 # 📖 Educations
 - *2024.03 - Present*, M.S. in Electrical and Electronic Engineering, Yonsei University.
-- *2018.03 - 2024.02*, B.S. in Software Convergence, Kyunghee University.
+- *2018.03 - 2024.02*, B.S. in Software Convergence, Kyung Hee University.
 
 # 💻 Work Experience
 - *2022.12 - 2023.06*, Research Intern in the Center for Artificial Intelligence at Korea Institute of Science and Technology (KIST), Seoul, South Korea. 
 
 # 🎖 Honors and Awards
-- *2023.02*, **Academic Scholarship** — Kyunghee University  
+- *2023.02*, **Academic Scholarship** — Kyung Hee University  
 - *2022.12*, **Excellence Award, Junior Paper Competition** — Korean Institute of Information Scientists and Engineers  
-- *2022.12*, **Silver Prize, Software Mileage Program** — Kyunghee University  
-- *2022.12*, **Grand Prize, Portfolio Competition** — Kyunghee University  
+- *2022.12*, **Silver Prize, Software Mileage Program** — Kyung Hee University  
+- *2022.12*, **Grand Prize, Portfolio Competition** — Kyung Hee University  
 - *2022.11*, **Gold Prize, 2022 AI-hub Hackathon** — Korean Institute of Smart Media  
 - *2022.11*, **Scholarship Recipient** — Gyeongju City Government  
-- *2022.09*, **Honorable Mention, Club Competition** — Kyunghee University  
+- *2022.09*, **Honorable Mention, Club Competition** — Kyung Hee University  
 
 
