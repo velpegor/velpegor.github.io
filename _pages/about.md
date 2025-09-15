@@ -25,9 +25,6 @@ My recent research interests include the following topics:
 * Trustworthy and Safe AI
 * Efficient Architecture for Large Models
 
-```
-✉️ E-mail: velpegor@yonsei.ac.kr
-```
 # 🔥 News
 - *2025.05*: &nbsp;One paper is accepted to **ICML 2025**  
 - *2025.02*: &nbsp;New preprint is out: ELITE
