@@ -25,6 +25,9 @@ My recent research interests include the following topics:
 * Trustworthy and Safe AI
 * Efficient Architecture for Large Models
 
+```md
+✉️ E-mail: velpegor@yonsei.ac.kr
+```
 # 🔥 News
 - *2025.05*: &nbsp;One paper is accepted to **ICML 2025**  
 - *2025.02*: &nbsp;New preprint is out: ELITE
@@ -34,7 +37,7 @@ My recent research interests include the following topics:
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
    **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    International Conference on Machine Learning (<span style="color:darkred">**ICML**</span>) 2025  <br>
-   [[Paper]](https://openreview.net/forum?id=583klsIjNx) / [[Project Page]](https://velpegor.github.io/ELITE) / [[Dataset]](https://huggingface.co/datasets/kdst/ELITE)
+   [[Paper]](https://openreview.net/forum?id=583klsIjNx) / [[Project Page]](https://velpegor.github.io/ELITE)
 
 * ## Maximizing the Position Embedding for Vision Transformers with Global Average Pooling <br>
    **Wonjun Lee**, Bumsub Ham, Suhyun Kim <br>
