@@ -7,9 +7,9 @@
 
 # Site Settings
 title                    : "Wonjun Lee"
-description              : 
-repository               : "velpegor.github.io"
-google_scholar_stats_use_cdn : False
+description              : "velpegor@yonsei.ac.kr"
+repository               : "RayeRen/acad-homepage.github.io"
+google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Wonjun Lee"
   avatar           : "images/wonjun.jpg"
-  bio              : "MS Student @ Yonsei"
-  location         : "Seoul, Korea"
+  bio              : "MS Student at Yonsei"
+  location         : "Seoul, South Korea"
   employer         :
   pubmed           : 
   googlescholar    : 
