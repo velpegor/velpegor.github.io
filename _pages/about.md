@@ -37,7 +37,7 @@ My recent research interests include the following topics:
    Preprint, 2025
   
 * ## ReSafe: Enhancing Safety of Text-to-Image Diffusion via Post-Hoc Image Back Translation <br>
-   Hyunsoo Kim, Wonjun Lee, Donghyun Kim&dagger;, Suhyun Kim&dagger; <br>
+   Hyunsoo Kim, **Wonjun Lee**, Donghyun Kim&dagger;, Suhyun Kim&dagger; <br>
    Preprint, 2025
 
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
