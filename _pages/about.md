@@ -26,7 +26,7 @@ My recent research interests include the following topics:
 * Efficient Architecture for Large Models
 
 # 🔥 News
-- *2025.05*: &nbsp;New preprint is out: SceneSplit, ReSafe 
+- *2025.05*: &nbsp;New preprints are out: SceneSplit, ReSafe 
 - *2025.05*: &nbsp;One paper is accepted to **ICML 2025**  
 - *2025.02*: &nbsp;New preprint is out: ELITE
 - *2024.12*: &nbsp;One paper is accepted to **AAAI 2025**  
