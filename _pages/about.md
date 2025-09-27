@@ -26,11 +26,20 @@ My recent research interests include the following topics:
 * Efficient Architecture for Large Models
 
 # 🔥 News
+- *2025.05*: &nbsp;New preprint is out: SceneSplit, ReSafe 
 - *2025.05*: &nbsp;One paper is accepted to **ICML 2025**  
 - *2025.02*: &nbsp;New preprint is out: ELITE
 - *2024.12*: &nbsp;One paper is accepted to **AAAI 2025**  
 
 # 📝 Publications 
+* ## Jailbreaking on Text-to-Video Models via Scene Splitting Strategy <br>
+   **Wonjun Lee**\*, Haon Park\*, Doehyeon Lee, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
+   Preprint, 2025
+  
+* ## ReSafe: Enhancing Safety of Text-to-Image Diffusion via Post-Hoc Image Back Translation <br>
+   Hyunsoo Kim, Wonjun Lee, Donghyun Kim, Suhyun Kim (^: Equal advising) <br>
+   Preprint, 2025
+
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
    **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    International Conference on Machine Learning (<span style="color:darkred">**ICML**</span>) 2025  <br>
