@@ -19,11 +19,10 @@ redirect_from:
 
 I am a M.S. student at <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a> in Yonsei University, advised by Prof. Bumsub Ham, and also affiliated with <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> in Kyung Hee University (formerly at KIST), co-advised by Prof. Suhyun Kim.
 
-I am broadly interested in building trustworthy and safe AI that can operate reliably under real-world conditions. In parallel, I am also interested in making large model architectures more adaptable and efficient.
+I am broadly interested in building trustworthy and safe AI that can operate reliably under real-world conditions. 
 
 My recent research interests include the following topics:
-* Trustworthy and Safe AI
-* Efficient Architecture for Large Models
+* Trustworthy and Safe AI: Jailbreak, Safety Evaluation, Human Alignment
 
 # 🔥 News
 - *2025.09*: &nbsp;New preprints are out: SceneSplit, ReSafe 
