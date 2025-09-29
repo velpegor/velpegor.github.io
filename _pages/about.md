@@ -34,7 +34,7 @@ My recent research interests include the following topics:
 # 📝 Publications 
 * ## Jailbreaking on Text-to-Video Models via Scene Splitting Strategy <br>
    **Wonjun Lee**\*, Haon Park\*, Doehyeon Lee, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
-   Preprint, 2025
+   Preprint, 2025 <br>
   [[Paper]](https://arxiv.org/pdf/2509.22292)
   
 * ## ReSafe: Enhancing Safety of Text-to-Image Diffusion via Post-Hoc Image Back Translation <br>
