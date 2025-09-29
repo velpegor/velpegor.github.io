@@ -35,6 +35,7 @@ My recent research interests include the following topics:
 * ## Jailbreaking on Text-to-Video Models via Scene Splitting Strategy <br>
    **Wonjun Lee**\*, Haon Park\*, Doehyeon Lee, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    Preprint, 2025
+  [[Paper]](https://arxiv.org/pdf/2509.22292)
   
 * ## ReSafe: Enhancing Safety of Text-to-Image Diffusion via Post-Hoc Image Back Translation <br>
    Hyunsoo Kim, **Wonjun Lee**, Donghyun Kim<sup>&dagger;</sup>, Suhyun Kim<sup>&dagger;</sup> <br>
@@ -43,7 +44,7 @@ My recent research interests include the following topics:
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
    **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    International Conference on Machine Learning (<span style="color:darkred">**ICML**</span>) 2025  <br>
-   [[Paper]](https://openreview.net/forum?id=583klsIjNx) / [[Project Page]](https://velpegor.github.io/ELITE)
+   [[Paper]](https://arxiv.org/pdf/2502.04757) / [[Project Page]](https://velpegor.github.io/ELITE)
 
 * ## Maximizing the Position Embedding for Vision Transformers with Global Average Pooling <br>
    **Wonjun Lee**, Bumsub Ham, Suhyun Kim <br>
