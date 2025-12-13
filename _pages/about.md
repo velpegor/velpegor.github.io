@@ -25,6 +25,8 @@ My recent research interests include the following topics:
 * **Trustworthy and Safe AI**: Jailbreak, Safety Evaluation, Benchmark, Human Alignment
 * **Improving the Capabilities of AI**: Transformer-based Understanding, LLM & VLM Reasoning
 
+If you are interested in collaborating with me on research projects, please feel free to send me an email!
+
 # 🔥 News
 - *2025.09*: &nbsp;New preprints are out: SceneSplit, ReSafe 
 - *2025.05*: &nbsp;One paper is accepted to **ICML 2025**  
@@ -52,8 +54,8 @@ My recent research interests include the following topics:
    [[Paper]](https://arxiv.org/abs/2502.02919) / [[Project Page]](https://velpegor.github.io/MPVG) 
 
 # 📖 Educations
-- *2024.03 - Present*, M.S. in Electrical and Electronic Engineering, Yonsei University.
-- *2018.03 - 2024.02*, B.S. in Software Convergence, Kyung Hee University.
+- *2024.03 - Present*: M.S. in Electrical and Electronic Engineering, Yonsei University.
+- *2018.03 - 2024.02*: B.S. in Software Convergence, Kyung Hee University.
 
 
 
