@@ -34,14 +34,15 @@ If you are interested in collaborating with me on research projects, please feel
 - *2024.12*: &nbsp;One paper is accepted to **AAAI 2025**  
 
 # 📝 Publications 
+  
+* ## Safety-Aware Image-to-Image Translation without Paired Data <br>
+   Hyunsoo Kim, **Wonjun Lee**, Donghyun Kim<sup>&dagger;</sup>, Suhyun Kim<sup>&dagger;</sup> <br>
+   Preprint, 2025
+
 * ## Jailbreaking on Text-to-Video Models via Scene Splitting Strategy <br>
    **Wonjun Lee**\*, Haon Park\*, Doehyeon Lee, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    Preprint, 2025 <br>
   [[Paper]](https://arxiv.org/pdf/2509.22292)
-  
-* ## ReSafe: Enhancing Safety of Text-to-Image Diffusion via Post-Hoc Image Back Translation <br>
-   Hyunsoo Kim, **Wonjun Lee**, Donghyun Kim<sup>&dagger;</sup>, Suhyun Kim<sup>&dagger;</sup> <br>
-   Preprint, 2025
 
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
    **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
@@ -56,6 +57,10 @@ If you are interested in collaborating with me on research projects, please feel
 # 📖 Educations
 - *2024.03 - Present*: M.S. in Electrical and Electronic Engineering, Yonsei University.
 - *2018.03 - 2024.02*: B.S. in Software Convergence, Kyung Hee University.
+
+# 💻 Work Experience
+- *2024.03 - Present*, Student Researcher in the Center for Artificial Intelligence at Korea Institute of Science and Technology (KIST), Seoul, South Korea. 
+- *2022.12 - 2023.06*, Research Intern in the Center for Artificial Intelligence at Korea Institute of Science and Technology (KIST), Seoul, South Korea. 
 
 
 
