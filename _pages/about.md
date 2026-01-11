@@ -36,7 +36,7 @@ If you are interested in collaborating with me on research projects, please feel
 # 📝 Publications 
   
 * ## Safety-Aware Image-to-Image Translation without Paired Data <br>
-   Hyunsoo Kim, **Wonjun Lee**, Donghyun Kim<sup>&dagger;</sup>, Suhyun Kim<sup>&dagger;</sup> <br>
+   Hyunsoo Kim, **Wonjun Lee**, Donghyun Kim, Suhyun Kim <br>
    Preprint, 2025
 
 * ## Jailbreaking on Text-to-Video Models via Scene Splitting Strategy <br>
