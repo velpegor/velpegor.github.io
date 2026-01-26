@@ -28,6 +28,7 @@ My recent research interests include the following topics:
 If you are interested in collaborating with me on research projects, please feel free to send me an email!
 
 # 🔥 News
+- *2026.01*: &nbsp;One paper is accepted to **ICLR 2026**  
 - *2025.09*: &nbsp;New preprints are out: SceneSplit, ReSafe 
 - *2025.05*: &nbsp;One paper is accepted to **ICML 2025**  
 - *2025.02*: &nbsp;New preprint is out: ELITE
@@ -41,8 +42,8 @@ If you are interested in collaborating with me on research projects, please feel
 
 * ## Jailbreaking on Text-to-Video Models via Scene Splitting Strategy <br>
    **Wonjun Lee**\*, Haon Park\*, Doehyeon Lee, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
-   Preprint, 2025 <br>
-  [[Paper]](https://arxiv.org/pdf/2509.22292)
+   International Conference on Learning Representations (<span style="color:darkred">**ICLR**</span>), 2026 <br>
+   [[Paper]](https://arxiv.org/pdf/2509.22292)
 
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
    **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
