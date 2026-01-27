@@ -43,7 +43,7 @@ If you are interested in collaborating with me on research projects, please feel
 * ## Jailbreaking on Text-to-Video Models via Scene Splitting Strategy <br>
    **Wonjun Lee**\*, Haon Park\*, Doehyeon Lee, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    International Conference on Learning Representations (<span style="color:darkred">**ICLR**</span>), 2026 <br>
-   [[Paper]](https://arxiv.org/pdf/2509.22292)
+   [[Paper]](https://arxiv.org/pdf/2509.22292) / [[Project Page]](https://velpegor.github.io/SceneSplit)
 
 * ## ELITE: Enhanced Language-Image Toxicity Evaluation for Safety <br>
    **Wonjun Lee**\*, Doehyeon Lee\*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
