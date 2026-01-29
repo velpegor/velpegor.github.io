@@ -58,7 +58,7 @@ If you are interested in collaborating with me on research projects, please feel
 # 📖 Educations
 - **M.S.** in Electrical and Electronic Engineering, <a href="https://www.yonsei.ac.kr/sites/en_sc/index.do" style="color: #009B8B; text-decoration: none;">**Yonsei University**</a> \\
 Advisors: Prof.<a href="https://scholar.google.com/citations?user=E6emHhkAAAAJ&hl=ko" style="color: #7289da; text-decoration: none;">Suhyun Kim</a> and Prof.<a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">Bumsub Ham</a> \\
-Mar. 2024 - Feb. 2026(expected)
+Mar. 2024 - Feb. 2026 (expected)
 
 - **B.S**. in Software Convergence, <a href="https://www.khu.ac.kr/eng/user/main/view.do" style="color: #7289da; text-decoration: none;">**Kyung Hee University**</a> \\
 Mar. 2018 - Feb. 2024
