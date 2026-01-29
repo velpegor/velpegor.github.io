@@ -56,11 +56,11 @@ If you are interested in collaborating with me on research projects, please feel
    [[Paper]](https://arxiv.org/abs/2502.02919) / [[Project Page]](https://velpegor.github.io/MPVG) 
 
 # 📖 Educations
-- **M.S.** in Electrical and Electronic Engineering, <a href="https://www.yonsei.ac.kr/sites/en_sc/index.do" style="color: #6981d7; text-decoration: none;">**Yonsei University**</a> \\
+- **M.S.** in Electrical and Electronic Engineering, **Yonsei University** \\
 Advisor: Prof.<a href="https://scholar.google.com/citations?user=E6emHhkAAAAJ&hl=ko" style="color: #6981d7; text-decoration: none;">Suhyun Kim</a> and Prof.<a href="https://cvlab.yonsei.ac.kr/" style="color: #6981d7; text-decoration: none;">Bumsub Ham</a> \\
 Mar. 2024 - Feb. 2026 (expected)
 
-- **B.S**. in Software Convergence, <a href="https://www.khu.ac.kr/eng/user/main/view.do" style="color: #6981d7; text-decoration: none;">**Kyung Hee University**</a> \\
+- **B.S**. in Software Convergence, **Kyung Hee University** \\
 Mar. 2018 - Feb. 2024
 
 
