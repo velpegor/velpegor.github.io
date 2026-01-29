@@ -56,8 +56,11 @@ If you are interested in collaborating with me on research projects, please feel
    [[Paper]](https://arxiv.org/abs/2502.02919) / [[Project Page]](https://velpegor.github.io/MPVG) 
 
 # 📖 Educations
-- *2024.03 - Present*: M.S. in Electrical and Electronic Engineering, Yonsei University.
-- *2018.03 - 2024.02*: B.S. in Software Convergence, Kyung Hee University.
+- **M.S.** in Electrical and Electronic Engineering, <a href="https://www.yonsei.ac.kr/sites/en_sc/index.do" style="color: #009B8B; text-decoration: none;">**Yonsei University**</a>
+Mar. 2024 - Feb. 2026(expected)
+- **B.S**. in Software Convergence, <a href="https://www.khu.ac.kr/eng/user/main/view.do" style="color: #009B8B; text-decoration: none;">**Kyung Hee University**</a> \\
+Mar. 2018 - Feb. 2024
+
 
 # 💻 Work Experience
 - *2024.03 - Present*, Student Researcher in the Center for Artificial Intelligence at Korea Institute of Science and Technology (KIST), Seoul, South Korea. 
