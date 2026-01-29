@@ -23,11 +23,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Wonjun Lee"
   avatar           : "images/wonjun.jpg"
-  bio              : "MS Student at Yonsei"
-  location         : "Seoul, South Korea"
+  bio              : "M.S. Student at Yonsei University"
+  location         :
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=bl5Hq7EAAAAJ&hl=ko&oi=sra"
   email            : 
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
