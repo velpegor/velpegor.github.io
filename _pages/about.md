@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a M.S. student at <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a> in Yonsei University, advised by Prof. Bumsub Ham, and also affiliated with <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> in Kyung Hee University (formerly at KIST), co-advised by Prof. Suhyun Kim.
+I am an M.S. student at <a href="https://cvlab.yonsei.ac.kr/" style="color: #7289da; text-decoration: none;">CVLab</a> in Yonsei University, advised by Prof. Bumsub Ham, and also affiliated with <a href="https://kdst.re.kr/" style="color: #7289da; text-decoration: none;">KDST</a> in Kyung Hee University (formerly at KIST), co-advised by Prof. Suhyun Kim.
 
 I am broadly interested in building trustworthy and safe AI that can operate reliably under real-world conditions. 
 
@@ -28,11 +28,11 @@ My recent research interests include the following topics:
 If you are interested in collaborating with me on research projects, please feel free to send me an email!
 
 # 🔥 News
-- *2026.01*: &nbsp;One paper is accepted to **ICLR 2026**  
+- *2026.01*: &nbsp;One paper accepted at **ICLR 2026**  
 - *2025.09*: &nbsp;New preprints are out: SceneSplit, ReSafe 
-- *2025.05*: &nbsp;One paper is accepted to **ICML 2025**  
+- *2025.05*: &nbsp;One paper accepted at **ICML 2025**  
 - *2025.02*: &nbsp;New preprint is out: ELITE
-- *2024.12*: &nbsp;One paper is accepted to **AAAI 2025**  
+- *2024.12*: &nbsp;One paper accepted at **AAAI 2025**  
 
 # 📝 Publications 
   
