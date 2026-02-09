@@ -22,10 +22,8 @@ I am an M.S. student at <a href="https://cvlab.yonsei.ac.kr/" style="color: #728
 I am broadly interested in building trustworthy and safe AI that can operate reliably under real-world conditions. 
 
 My recent research interests include the following topics:
-* **Trustworthy and Safe AI**: Jailbreak, Safety Evaluation, Benchmark, Human Alignment
+* **Trustworthy and Safe AI**: Jailbreak, Defenses, Evaluation, Safety Alignment
 * **Improving the Capabilities of AI**: Transformer-based Understanding, LLM & VLM Reasoning
-
-If you are interested in collaborating with me on research projects, please feel free to send me an email!
 
 # 🔥 News
 - *2026.01*: &nbsp;One paper accepted at **ICLR 2026**  
