@@ -27,7 +27,7 @@ My recent research interests include the following topics:
 
 # 🔥 News
 - *2026.01*: &nbsp;One paper accepted at **ICLR 2026**  
-- *2025.09*: &nbsp;New preprints are out: SceneSplit, ReSafe 
+- *2025.09*: &nbsp;New preprint is out: SceneSplit 
 - *2025.05*: &nbsp;One paper accepted at **ICML 2025**  
 - *2025.02*: &nbsp;New preprint is out: ELITE
 - *2024.12*: &nbsp;One paper accepted at **AAAI 2025**  
