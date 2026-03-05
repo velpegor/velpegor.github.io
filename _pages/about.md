@@ -34,10 +34,6 @@ My recent research interests include the following topics:
 
 # 📝 Publications 
   
-* ## Safety-Aware Image-to-Image Translation without Paired Data <br>
-   Hyunsoo Kim, **Wonjun Lee**, Donghyun Kim, Suhyun Kim <br>
-   Preprint, 2025
-
 * ## Jailbreaking on Text-to-Video Models via Scene Splitting Strategy <br>
    **Wonjun Lee**\*, Haon Park\*, Doehyeon Lee, Bumsub Ham, Suhyun Kim (* Equal Contribution) <br>
    International Conference on Learning Representations (<span style="color:darkred">**ICLR**</span>), 2026 <br>
