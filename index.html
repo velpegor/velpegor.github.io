@@ -112,6 +112,24 @@
       letter-spacing: -0.04em;
     }
 
+    .hero h1 {
+      font-size: clamp(1.72rem, 3.35vw, 2.45rem);
+    }
+
+    .hero-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px 20px;
+      flex-wrap: wrap;
+    }
+
+    .hero-title-row .links {
+      margin-top: 0;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
     .links {
       display: flex;
       flex-wrap: wrap;
@@ -129,6 +147,12 @@
       box-shadow: 0 4px 18px rgba(17, 24, 39, 0.03);
       color: #374151;
       font-size: 0.95rem;
+    }
+
+    .hero-contact-invite {
+      margin: 14px 0 0;
+      color: var(--text);
+      font-size: 0.98rem;
     }
 
     .chip {
@@ -176,9 +200,22 @@
     }
 
     .advisor-line {
-      margin-top: 6px;
-      margin-left: 18px;
+      margin-top: 8px;
+      margin-left: 1.5rem;
+      padding-left: 14px;
+      position: relative;
       color: #4b5563;
+    }
+
+    .advisor-line::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.70em;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #9ca3af;
     }
 
     .plain-block-content + .plain-block-content {
@@ -333,26 +370,29 @@
     <section class="hero">
       <img class="portrait" src="images/wonjun.jpg" alt="Portrait of Wonjun Lee" />
       <div>
-        <h1>Wonjun Lee</h1>
+        <div class="hero-title-row">
+          <h1>Wonjun Lee</h1>
+          <div class="links">
+            <a class="chip" href="https://github.com/velpegor" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="chip" href="https://scholar.google.com/citations?user=EBBmklUAAAAJ&hl=ko&oi=sra" target="_blank" rel="noreferrer">Google Scholar</a>
+            <a class="chip" href="https://www.linkedin.com/in/wonjun-lee-7566b7259" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
         <p>
-          I am an M.S. student at <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">CVLab</a> in Yonsei University, advised by Prof. Bumsub Ham, and also affiliated with <a href="https://kdst.re.kr/" target="_blank" rel="noreferrer">KDST</a> in Kyung Hee University (formerly at KIST), co-advised by Prof. Suhyun Kim.
+          I received my M.S. from Yonsei University, where I worked at <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">CVLab</a>, advised by Prof. Bumsub Ham, and am also affiliated with <a href="https://kdst.re.kr/" target="_blank" rel="noreferrer">KDST</a> in Kyung Hee University (formerly at KIST), co-advised by Prof. Suhyun Kim.
         </p>
         <p>
           I am broadly interested in building trustworthy and safe AI that can operate reliably under real-world conditions.
         </p>
-        <div class="email-box">E-mail: <em>velpegor@yonsei.ac.kr</em></div>
-        <div class="links">
-          <a class="chip" href="https://github.com/velpegor" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="chip" href="https://scholar.google.com/citations?user=EBBmklUAAAAJ&hl=ko&oi=sra" target="_blank" rel="noreferrer">Google Scholar</a>
-          <a class="chip" href="https://www.linkedin.com/in/wonjun-lee-7566b7259" target="_blank" rel="noreferrer">LinkedIn</a>
-        </div>
+        <p class="hero-contact-invite">If you have any questions, feel free to contact me!</p>
+        <div class="email-box">✉️ E-mail: <em>velpegor@yonsei.ac.kr</em></div>
       </div>
     </section>
 
     <div class="grid">
       <div>
         <section class="section" id="news">
-          <h2>Recent News</h2>
+          <h2>🔥 Recent News</h2>
           <div class="card news-box">
             <ul>
               <li><em>2026.01</em>: One paper accepted at <strong>ICLR 2026</strong></li>
@@ -365,7 +405,7 @@
         </section>
 
         <section class="section">
-          <h2>Research Interests</h2>
+          <h2>🧠 Research Interests</h2>
           <div class="tags">
             <span class="tag">AI Safety &amp; Security</span>
             <span class="tag">Agent</span>
@@ -374,7 +414,7 @@
         </section>
 
         <section class="section" id="publications">
-          <h2>Publications</h2>
+          <h2>📝 Publications</h2>
           <div>
             <article class="card publication">
               <div class="pub-title">Jailbreaking on Text-to-Video Models via Scene Splitting Strategy</div>
@@ -411,22 +451,26 @@
         </section>
 
         <section class="section" id="experience">
-          <h2>Experience</h2>
+          <h2>💻 Experience</h2>
           <div class="timeline">
             <div class="timeline-item">
+              <div class="timeline-title">Research Collaboration - AIM Intelligence</div>
+              <div class="timeline-meta">2024.10 – Present, Seoul, South Korea</div>
+            </div>
+            <div class="timeline-item">
               <div class="timeline-title">Student Researcher - Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
-              <div class="timeline-meta">2024.03 - Present - Seoul, South Korea</div>
+              <div class="timeline-meta">2024.03 – 2026.02, Seoul, South Korea</div>
             </div>
             <div class="timeline-item">
               <div class="timeline-title">Research Intern - Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
-              <div class="timeline-meta">2022.12 - 2023.06 - Seoul, South Korea</div>
+              <div class="timeline-meta">2022.12 – 2023.06, Seoul, South Korea</div>
             </div>
           </div>
         </section>
 
         <section class="info-row">
           <div id="education">
-            <h2>Education</h2>
+            <h2>📖 Education</h2>
             <div class="plain-block-box">
               <div class="plain-block-content">
                 <strong>Mar. 2024 - Feb. 2026:</strong> M.S. in Electrical and Electronic Engineering, Yonsei University
