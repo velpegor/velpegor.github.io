@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wonjun Lee</title>
+  <meta name="description" content="velpegor@yonsei.ac.kr" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #1f6feb;
+      --accent-soft: #eff6ff;
+      --max-width: 1180px;
+      --radius: 16px;
+      --shadow: 0 10px 30px rgba(17, 24, 39, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      border-bottom: 1px solid rgba(229, 231, 235, 0.8);
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(12px);
+    }
+
+    .topbar-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      font-weight: 700;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: 0.96rem;
+    }
+
+    .nav a {
+      color: #374151;
+      font-weight: 500;
+    }
+
+    .page {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 34px 20px 72px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 34px;
+      align-items: start;
+      padding-top: 10px;
+      margin-bottom: 28px;
+    }
+
+    .portrait {
+      width: 100%;
+      aspect-ratio: 1 / 1.16;
+      border-radius: 22px;
+      border: 1px solid var(--line);
+      object-fit: cover;
+      box-shadow: var(--shadow);
+      background: linear-gradient(180deg, #f3f4f6, #e5e7eb);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.1rem);
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .email-box {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 4px 18px rgba(17, 24, 39, 0.03);
+      color: #374151;
+      font-size: 0.95rem;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #374151;
+      background: #fff;
+      font-weight: 600;
+      font-size: 0.94rem;
+    }
+
+    .chip:hover {
+      text-decoration: none;
+      border-color: #c7d2fe;
+      background: #f8fbff;
+    }
+
+    .grid {
+      display: block;
+    }
+
+    .info-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 34px;
+      margin-top: 34px;
+    }
+
+    .plain-block-box,
+    .card,
+    .timeline-item {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: 0 4px 18px rgba(17, 24, 39, 0.03);
+    }
+
+    .plain-block-content {
+      color: #374151;
+    }
+
+    .advisor-line {
+      margin-top: 6px;
+      margin-left: 18px;
+      color: #4b5563;
+    }
+
+    .plain-block-content + .plain-block-content {
+      margin-top: 10px;
+    }
+
+    .section {
+      margin-top: 34px;
+      scroll-margin-top: 90px;
+    }
+
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 1.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .tag {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #f3f4f6;
+      color: #374151;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .publication {
+      display: grid;
+      gap: 8px;
+    }
+
+    .publication + .publication {
+      margin-top: 14px;
+    }
+
+    .pub-title {
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .pub-meta,
+    .pub-authors {
+      color: #4b5563;
+      font-size: 0.97rem;
+    }
+
+    .pub-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 2px;
+    }
+
+    .pub-link {
+      display: inline-block;
+      padding: 6px 12px;
+      border: 1.5px solid #d1d5db;
+      border-radius: 8px;
+      background: #ffffff;
+      color: var(--accent);
+      font-size: 0.88rem;
+      font-weight: 700;
+      line-height: 1.2;
+      text-decoration: none;
+    }
+
+    .pub-link:hover {
+      text-decoration: none;
+      color: var(--accent);
+      border-color: #93c5fd;
+      background: #f8fbff;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 14px;
+    }
+
+    .timeline-title {
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .timeline-meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .news-box ul {
+      margin: 0;
+      padding-left: 20px;
+      color: #374151;
+    }
+
+    .news-box li + li {
+      margin-top: 10px;
+    }
+
+    footer {
+      margin-top: 52px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 900px) {
+      .info-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .portrait {
+        width: min(280px, 100%);
+      }
+
+      .topbar-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top">Wonjun Lee</a>
+      <nav class="nav">
+        <a href="#news">Recent News</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page" id="top">
+    <section class="hero">
+      <img class="portrait" src="images/wonjun.jpg" alt="Portrait of Wonjun Lee" />
+      <div>
+        <h1>Wonjun Lee</h1>
+        <p>
+          I am an M.S. student at <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">CVLab</a> in Yonsei University, advised by Prof. Bumsub Ham, and also affiliated with <a href="https://kdst.re.kr/" target="_blank" rel="noreferrer">KDST</a> in Kyung Hee University (formerly at KIST), co-advised by Prof. Suhyun Kim.
+        </p>
+        <p>
+          I am broadly interested in building trustworthy and safe AI that can operate reliably under real-world conditions.
+        </p>
+        <div class="email-box">E-mail: <em>velpegor@yonsei.ac.kr</em></div>
+        <div class="links">
+          <a class="chip" href="https://github.com/velpegor" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="chip" href="https://scholar.google.com/citations?user=EBBmklUAAAAJ&hl=ko&oi=sra" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a class="chip" href="https://www.linkedin.com/in/wonjun-lee-7566b7259" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <div>
+        <section class="section" id="news">
+          <h2>Recent News</h2>
+          <div class="card news-box">
+            <ul>
+              <li><em>2026.01</em>: One paper accepted at <strong>ICLR 2026</strong></li>
+              <li><em>2025.09</em>: New preprint is out: <strong>SceneSplit</strong></li>
+              <li><em>2025.05</em>: One paper accepted at <strong>ICML 2025</strong></li>
+              <li><em>2025.02</em>: New preprint is out: <strong>ELITE</strong></li>
+              <li><em>2024.12</em>: One paper accepted at <strong>AAAI 2025</strong></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Research Interests</h2>
+          <div class="tags">
+            <span class="tag">AI Safety &amp; Security</span>
+            <span class="tag">Agent</span>
+            <span class="tag">Reasoning</span>
+          </div>
+        </section>
+
+        <section class="section" id="publications">
+          <h2>Publications</h2>
+          <div>
+            <article class="card publication">
+              <div class="pub-title">Jailbreaking on Text-to-Video Models via Scene Splitting Strategy</div>
+              <div class="pub-meta">International Conference on Learning Representations (<strong style="color: darkred;">ICLR</strong>), 2026</div>
+              <div class="pub-authors"><strong>Wonjun Lee</strong>*, Haon Park*, Doehyeon Lee, Bumsub Ham, Suhyun Kim (* Equal Contribution)</div>
+              <div class="pub-links">
+                <a class="pub-link" href="https://arxiv.org/pdf/2509.22292" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://velpegor.github.io/SceneSplit" target="_blank" rel="noreferrer">Project Page</a>
+                <a class="pub-link" href="https://github.com/velpegor/SceneSplit" target="_blank" rel="noreferrer">Code</a>
+              </div>
+            </article>
+
+            <article class="card publication">
+              <div class="pub-title">ELITE: Enhanced Language-Image Toxicity Evaluation for Safety</div>
+              <div class="pub-meta">International Conference on Machine Learning (<strong style="color: darkred;">ICML</strong>), 2025</div>
+              <div class="pub-authors"><strong>Wonjun Lee</strong>*, Doehyeon Lee*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution)</div>
+              <div class="pub-links">
+                <a class="pub-link" href="https://arxiv.org/pdf/2502.04757" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://velpegor.github.io/ELITE" target="_blank" rel="noreferrer">Project Page</a>
+                <a class="pub-link" href="https://huggingface.co/datasets/kdst/ELITE" target="_blank" rel="noreferrer">Dataset</a>
+              </div>
+            </article>
+
+            <article class="card publication">
+              <div class="pub-title">Maximizing the Position Embedding for Vision Transformers with Global Average Pooling</div>
+              <div class="pub-meta">Association for the Advancement of Artificial Intelligence (<strong style="color: darkred;">AAAI</strong>), 2025</div>
+              <div class="pub-authors"><strong>Wonjun Lee</strong>, Bumsub Ham, Suhyun Kim</div>
+              <div class="pub-links">
+                <a class="pub-link" href="https://arxiv.org/abs/2502.02919" target="_blank" rel="noreferrer">Paper</a>
+                <a class="pub-link" href="https://velpegor.github.io/MPVG" target="_blank" rel="noreferrer">Project Page</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="experience">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-title">Student Researcher - Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
+              <div class="timeline-meta">2024.03 - Present - Seoul, South Korea</div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-title">Research Intern - Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
+              <div class="timeline-meta">2022.12 - 2023.06 - Seoul, South Korea</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="info-row">
+          <div id="education">
+            <h2>Education</h2>
+            <div class="plain-block-box">
+              <div class="plain-block-content">
+                <strong>Mar. 2024 - Feb. 2026:</strong> M.S. in Electrical and Electronic Engineering, Yonsei University
+                <div class="advisor-line">Advisor: Prof. <a href="https://scholar.google.com/citations?user=E6emHhkAAAAJ&hl=ko" target="_blank" rel="noreferrer">Suhyun Kim</a> and Prof. <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">Bumsub Ham</a></div>
+              </div>
+              <div class="plain-block-content">
+                <strong>Mar. 2018 - Feb. 2024:</strong> B.S. in Software Convergence, Kyung Hee University
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      Last updated Mar. 2026
+    </footer>
+  </main>
+</body>
+</html>
