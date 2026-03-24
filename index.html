@@ -105,19 +105,6 @@
       background: linear-gradient(180deg, #f3f4f6, #e5e7eb);
     }
 
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      color: #1d4ed8;
-      font-size: 0.88rem;
-      font-weight: 600;
-      margin-bottom: 12px;
-    }
-
     h1 {
       margin: 0;
       font-size: clamp(2rem, 4vw, 3.1rem);
@@ -125,16 +112,22 @@
       letter-spacing: -0.04em;
     }
 
-    .subtitle {
-      margin-top: 10px;
-      font-size: 1.08rem;
-      color: #374151;
+    .hero h1 {
+      font-size: clamp(1.72rem, 3.35vw, 2.45rem);
     }
 
-    .hero p {
-      margin: 12px 0 0;
-      color: #374151;
-      font-size: 1rem;
+    .hero-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px 20px;
+      flex-wrap: wrap;
+    }
+
+    .hero-title-row .links {
+      margin-top: 0;
+      justify-content: flex-end;
+      flex: 1 1 auto;
     }
 
     .links {
@@ -154,6 +147,12 @@
       box-shadow: 0 4px 18px rgba(17, 24, 39, 0.03);
       color: #374151;
       font-size: 0.95rem;
+    }
+
+    .hero-contact-invite {
+      margin: 14px 0 0;
+      color: var(--text);
+      font-size: 0.98rem;
     }
 
     .chip {
@@ -188,24 +187,13 @@
 
     .plain-block {
       display: block;
+      scroll-margin-top: 90px;
     }
 
-    .plain-block-box {
-      padding: 18px 18px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: #fff;
-      box-shadow: 0 4px 18px rgba(17, 24, 39, 0.03);
-    }
-
-    .plain-block-content {
-      color: #374151;
-    }
-
-    .advisor-line {
-      margin-top: 6px;
-      margin-left: 18px;
-      color: #4b5563;
+    .plain-block h2 {
+      margin: 0 0 12px;
+      font-size: 1.5rem;
+      letter-spacing: -0.02em;
     }
 
     .service-list {
@@ -230,9 +218,37 @@
       color: #374151;
     }
 
-    .service-acronym {
-      color: #5b67c8;
-      font-weight: 600;
+    .plain-block-box,
+    .card,
+    .timeline-item {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: 0 4px 18px rgba(17, 24, 39, 0.03);
+    }
+
+    .plain-block-content {
+      color: #374151;
+    }
+
+    .advisor-line {
+      margin-top: 8px;
+      margin-left: 1.5rem;
+      padding-left: 14px;
+      position: relative;
+      color: #4b5563;
+    }
+
+    .advisor-line::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.70em;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #9ca3af;
     }
 
     .plain-block-content + .plain-block-content {
@@ -250,45 +266,6 @@
       letter-spacing: -0.02em;
     }
 
-    .section-intro {
-      color: var(--muted);
-      margin-bottom: 16px;
-    }
-
-    .news-list,
-    .simple-list {
-      display: grid;
-      gap: 12px;
-    }
-
-    .news-box {
-      display: block;
-      padding-top: 12px;
-      padding-bottom: 12px;
-    }
-
-    .news-box ul {
-      margin: 0;
-      padding-left: 20px;
-      color: #374151;
-    }
-
-    .news-box li + li {
-      margin-top: 10px;
-    }
-
-    .card {
-      padding: 18px 18px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: #fff;
-      box-shadow: 0 4px 18px rgba(17, 24, 39, 0.03);
-    }
-
-    .news-item {
-      color: #374151;
-    }
-
     .tags {
       display: flex;
       flex-wrap: wrap;
@@ -303,30 +280,6 @@
       color: #374151;
       font-size: 0.88rem;
       font-weight: 600;
-    }
-
-    .pub-filter {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 16px;
-    }
-
-    .filter-btn {
-      padding: 8px 12px;
-      border: 1px solid var(--line);
-      background: white;
-      color: #374151;
-      border-radius: 999px;
-      cursor: pointer;
-      font: inherit;
-      font-weight: 600;
-    }
-
-    .filter-btn.active {
-      background: var(--text);
-      color: white;
-      border-color: var(--text);
     }
 
     .publication {
@@ -382,13 +335,6 @@
       gap: 14px;
     }
 
-    .timeline-item {
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: #fff;
-    }
-
     .timeline-title {
       font-weight: 700;
       margin-bottom: 4px;
@@ -399,21 +345,14 @@
       font-size: 0.95rem;
     }
 
-    .sidebar {
-      margin-top: 34px;
+    .news-box ul {
+      margin: 0;
+      padding-left: 20px;
+      color: #374151;
     }
 
-    .sidebar .card + .card {
-      margin-top: 0;
-    }
-
-    .sidebar h3 {
-      margin: 0 0 10px;
-      font-size: 1.08rem;
-    }
-
-    .muted {
-      color: var(--muted);
+    .news-box li + li {
+      margin-top: 10px;
     }
 
     footer {
@@ -463,25 +402,24 @@
 
   <main class="page" id="top">
     <section class="hero">
-      <img
-        class="portrait"
-        src="images/wonjun.jpg"
-        alt="Portrait of Wonjun Lee"
-      />
+      <img class="portrait" src="images/wonjun.jpg" alt="Portrait of Wonjun Lee" />
       <div>
-        <h1>Wonjun Lee</h1>
+        <div class="hero-title-row">
+          <h1>Wonjun Lee</h1>
+          <div class="links">
+            <a class="chip" href="https://github.com/velpegor" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="chip" href="https://scholar.google.com/citations?user=EBBmklUAAAAJ&hl=ko&oi=sra" target="_blank" rel="noreferrer">Google Scholar</a>
+            <a class="chip" href="https://www.linkedin.com/in/wonjun-lee-7566b7259" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
         <p>
-          I am an M.S. student at <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">CVLab</a> in Yonsei University, advised by Prof. Bumsub Ham, and also affiliated with <a href="https://kdst.re.kr/" target="_blank" rel="noreferrer">KDST</a> in Kyung Hee University (formerly at KIST), co-advised by Prof. Suhyun Kim.
+          I received my M.S. from Yonsei University, where I worked at <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">CVLab</a>, advised by Prof. Bumsub Ham, and am also affiliated with <a href="https://kdst.re.kr/" target="_blank" rel="noreferrer">KDST</a> in Kyung Hee University (formerly at KIST), co-advised by Prof. Suhyun Kim.
         </p>
         <p>
           I am broadly interested in building trustworthy and safe AI that can operate reliably under real-world conditions.
         </p>
+        <p class="hero-contact-invite">If you have any questions, feel free to contact me!</p>
         <div class="email-box">✉️ E-mail: <em>velpegor@yonsei.ac.kr</em></div>
-        <div class="links">
-          <a class="chip" href="https://github.com/velpegor" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="chip" href="https://scholar.google.com/citations?user=EBBmklUAAAAJ&hl=ko&oi=sra" target="_blank" rel="noreferrer">Google Scholar</a>
-          <a class="chip" href="https://www.linkedin.com/in/wonjun-lee-7566b7259" target="_blank" rel="noreferrer">LinkedIn</a>
-        </div>
       </div>
     </section>
 
@@ -511,8 +449,15 @@
 
         <section class="section" id="publications">
           <h2>📝 Publications</h2>
-          <div class="simple-list" id="publication-list">
-            <article class="card publication" data-category="safety multimodal">
+          <div>
+            <article class="card publication">
+              <div class="pub-title">Safety-Aware Image-to-Image Translation without Paired Data</div>
+              <div class="pub-meta">Preprint, 2026</div>
+              <div class="pub-authors">Hyunsoo Kim, <strong>Wonjun Lee</strong>, Donghyun Kim, Suhyun Kim</div>
+
+            </article>
+
+            <article class="card publication">
               <div class="pub-title">Jailbreaking on Text-to-Video Models via Scene Splitting Strategy</div>
               <div class="pub-meta">International Conference on Learning Representations (<strong style="color: darkred;">ICLR</strong>), 2026</div>
               <div class="pub-authors"><strong>Wonjun Lee</strong>*, Haon Park*, Doehyeon Lee, Bumsub Ham, Suhyun Kim (* Equal Contribution)</div>
@@ -523,7 +468,7 @@
               </div>
             </article>
 
-            <article class="card publication" data-category="safety multimodal">
+            <article class="card publication">
               <div class="pub-title">ELITE: Enhanced Language-Image Toxicity Evaluation for Safety</div>
               <div class="pub-meta">International Conference on Machine Learning (<strong style="color: darkred;">ICML</strong>), 2025</div>
               <div class="pub-authors"><strong>Wonjun Lee</strong>*, Doehyeon Lee*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (* Equal Contribution)</div>
@@ -534,7 +479,7 @@
               </div>
             </article>
 
-            <article class="card publication" data-category="reasoning">
+            <article class="card publication">
               <div class="pub-title">Maximizing the Position Embedding for Vision Transformers with Global Average Pooling</div>
               <div class="pub-meta">Association for the Advancement of Artificial Intelligence (<strong style="color: darkred;">AAAI</strong>), 2025</div>
               <div class="pub-authors"><strong>Wonjun Lee</strong>, Bumsub Ham, Suhyun Kim</div>
@@ -550,12 +495,16 @@
           <h2>💻 Experience</h2>
           <div class="timeline">
             <div class="timeline-item">
-              <div class="timeline-title">Student Researcher — Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
-              <div class="timeline-meta">2024.03 - Present · Seoul, South Korea</div>
+              <div class="timeline-title">Research Collaboration - AIM Intelligence</div>
+              <div class="timeline-meta">2024.10 – Present, Seoul, South Korea</div>
             </div>
             <div class="timeline-item">
-              <div class="timeline-title">Research Intern — Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
-              <div class="timeline-meta">2022.12 - 2023.06 · Seoul, South Korea</div>
+              <div class="timeline-title">Student Researcher - Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
+              <div class="timeline-meta">2024.03 – 2026.02, Seoul, South Korea</div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-title">Research Intern - Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
+              <div class="timeline-meta">2022.12 – 2023.06, Seoul, South Korea</div>
             </div>
           </div>
         </section>
@@ -566,7 +515,7 @@
             <div class="plain-block-box">
               <div class="plain-block-content">
                 <strong>Mar. 2024 - Feb. 2026:</strong> M.S. in Electrical and Electronic Engineering, Yonsei University
-                <div class="advisor-line">◦ Advisor: Prof. <a href="https://scholar.google.com/citations?user=E6emHhkAAAAJ&hl=ko" target="_blank" rel="noreferrer">Suhyun Kim</a> and Prof. <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">Bumsub Ham</a></div>
+                <div class="advisor-line">Advisor: Prof. <a href="https://scholar.google.com/citations?user=E6emHhkAAAAJ&hl=ko" target="_blank" rel="noreferrer">Suhyun Kim</a> and Prof. <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">Bumsub Ham</a></div>
               </div>
               <div class="plain-block-content">
                 <strong>Mar. 2018 - Feb. 2024:</strong> B.S. in Software Convergence, Kyung Hee University
@@ -593,24 +542,5 @@
       Last updated Mar. 2026
     </footer>
   </main>
-
-  <script>
-    const buttons = document.querySelectorAll('.filter-btn');
-    const items = document.querySelectorAll('.publication');
-
-    buttons.forEach((button) => {
-      button.addEventListener('click', () => {
-        buttons.forEach((btn) => btn.classList.remove('active'));
-        button.classList.add('active');
-        const filter = button.dataset.filter;
-
-        items.forEach((item) => {
-          const categories = item.dataset.category;
-          const visible = filter === 'all' || categories.includes(filter);
-          item.style.display = visible ? 'grid' : 'none';
-        });
-      });
-    });
-  </script>
 </body>
 </html>
