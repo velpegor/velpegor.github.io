@@ -88,7 +88,7 @@
 
     .hero {
       display: grid;
-      grid-template-columns: 220px 1fr;
+      grid-template-columns: 195px 1fr;
       gap: 34px;
       align-items: start;
       padding-top: 10px;
@@ -96,7 +96,10 @@
     }
 
     .portrait {
+      display: block;
       width: 100%;
+      margin-top: 12px;
+      align-self: start;
       aspect-ratio: 1 / 1.16;
       border-radius: 22px;
       border: 1px solid var(--line);
@@ -114,6 +117,10 @@
 
     .hero h1 {
       font-size: clamp(1.72rem, 3.35vw, 2.45rem);
+    }
+
+    .hero > div {
+      padding-top: 0;
     }
 
     .hero-title-row {
@@ -376,7 +383,7 @@
       }
 
       .portrait {
-        width: min(280px, 100%);
+        width: min(235px, 100%);
       }
 
       .topbar-inner {
@@ -446,16 +453,6 @@
             </ul>
           </div>
         </section>
-
-        <section class="section">
-          <h2>🧠 Research Interests</h2>
-          <div class="tags">
-            <span class="tag">AI Safety &amp; Security</span>
-            <span class="tag">Agent</span>
-            <span class="tag">Reasoning</span>
-          </div>
-        </section>
-
         <section class="section" id="publications">
           <h2>📝 Publications</h2>
           <div>
