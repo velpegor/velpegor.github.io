@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wonjun Lee</title>
   <meta name="description" content="velpegor@yonsei.ac.kr" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
       --bg: #ffffff;
@@ -16,6 +19,7 @@
       --max-width: 960px;
       --radius: 16px;
       --shadow: 0 10px 30px rgba(17, 24, 39, 0.06);
+      --mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
     }
 
     * {
@@ -29,7 +33,7 @@
 
     body {
       margin: 0;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--text);
       background: var(--bg);
       line-height: 1.65;
@@ -163,6 +167,12 @@
       font-size: 0.98rem;
     }
 
+    .chip-icon {
+      width: 15px;
+      height: 15px;
+      flex-shrink: 0;
+    }
+
     .chip {
       display: inline-flex;
       align-items: center;
@@ -189,12 +199,14 @@
     .info-row {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 28px;
-      margin-top: 28px;
+      gap: 26px;
+      margin-top: 26px;
     }
 
     .plain-block {
       display: block;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
       scroll-margin-top: 90px;
     }
 
@@ -204,31 +216,64 @@
       letter-spacing: -0.02em;
     }
 
-    .service-list {
+    .rows {
+      display: grid;
+      gap: 12px;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 11rem 1fr;
+      gap: 6px 20px;
+      align-items: baseline;
+      position: relative;
+      padding-left: 16px;
+    }
+
+    .row::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.58em;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #9ca3af;
+    }
+
+    #news .row {
+      grid-template-columns: 7rem 1fr;
+    }
+
+    .row-label {
+      font-family: var(--mono);
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .row-body {
       margin: 0;
-      padding-left: 22px;
       color: #374151;
     }
 
-    .service-list li::marker {
-      color: #374151;
-      font-size: 1rem;
-    }
-
-    .service-role {
-      font-weight: 700;
+    .row-body strong {
       color: var(--text);
     }
 
-    .service-item {
-      margin-top: 6px;
-      margin-left: 2px;
-      color: #374151;
+    .row-title {
+      font-weight: 600;
+      color: var(--text);
     }
 
-    .plain-block-box,
-    .card,
-    .timeline-item {
+    .row-sub {
+      margin: 2px 0 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .card {
       padding: 18px;
       border: 1px solid var(--line);
       border-radius: var(--radius);
@@ -236,35 +281,10 @@
       box-shadow: 0 4px 18px rgba(17, 24, 39, 0.03);
     }
 
-    .plain-block-content {
-      color: #374151;
-    }
-
-    .advisor-line {
-      margin-top: 8px;
-      margin-left: 1.5rem;
-      padding-left: 14px;
-      position: relative;
-      color: #4b5563;
-    }
-
-    .advisor-line::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0.70em;
-      width: 5px;
-      height: 5px;
-      border-radius: 50%;
-      background: #9ca3af;
-    }
-
-    .plain-block-content + .plain-block-content {
-      margin-top: 10px;
-    }
-
     .section {
-      margin-top: 28px;
+      margin-top: 26px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
       scroll-margin-top: 90px;
     }
 
@@ -338,31 +358,6 @@
       background: #f8fbff;
     }
 
-    .timeline {
-      display: grid;
-      gap: 14px;
-    }
-
-    .timeline-title {
-      font-weight: 700;
-      margin-bottom: 4px;
-    }
-
-    .timeline-meta {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .news-box ul {
-      margin: 0;
-      padding-left: 20px;
-      color: #374151;
-    }
-
-    .news-box li + li {
-      margin-top: 10px;
-    }
-
     footer {
       margin-top: 44px;
       padding-top: 20px;
@@ -390,6 +385,15 @@
       .topbar-inner {
         align-items: flex-start;
         flex-direction: column;
+      }
+
+      .row {
+        grid-template-columns: 1fr;
+        gap: 1px 0;
+      }
+
+      .rows {
+        gap: 16px;
       }
     }
   </style>
@@ -425,9 +429,9 @@
         <div class="hero-title-row">
           <h1>Wonjun Lee</h1>
           <div class="links">
-            <a class="chip" href="https://github.com/velpegor" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="chip" href="https://scholar.google.com/citations?user=EBBmklUAAAAJ&hl=ko&oi=sra" target="_blank" rel="noreferrer">Google Scholar</a>
-            <a class="chip" href="https://www.linkedin.com/in/wonjun-lee-7566b7259" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="chip" href="https://github.com/velpegor" target="_blank" rel="noreferrer"><svg class="chip-icon" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>GitHub</a>
+            <a class="chip" href="https://scholar.google.com/citations?user=EBBmklUAAAAJ&hl=ko&oi=sra" target="_blank" rel="noreferrer"><svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.749-6.758 4.269ZM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14Z"/></svg>Google Scholar</a>
+            <a class="chip" href="https://www.linkedin.com/in/wonjun-lee-7566b7259" target="_blank" rel="noreferrer"><svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286ZM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065Zm1.782 13.019H3.555V9h3.564v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0Z"/></svg>LinkedIn</a>
           </div>
         </div>
         <p>
@@ -443,19 +447,32 @@
     <div class="grid">
       <div>
         <section class="section" id="news">
-          <h2>🔥 Recent News</h2>
-          <div class="card news-box">
-            <ul>
-              <li><em>Jan. 2026</em>: One paper accepted at <strong>ICLR 2026</strong></li>
-              <li><em>Sep. 2025</em>: New preprint is out: <strong>SceneSplit</strong></li>
-              <li><em>May. 2025</em>: One paper accepted at <strong>ICML 2025</strong></li>
-              <li><em>Feb. 2025</em>: New preprint is out: <strong>ELITE</strong></li>
-              <li><em>Dec. 2024</em>: One paper accepted at <strong>AAAI 2025</strong></li>
-            </ul>
+          <h2>Recent News</h2>
+          <div class="rows">
+            <div class="row">
+              <span class="row-label">Jan. 2026</span>
+              <p class="row-body">One paper accepted at <strong>ICLR 2026</strong> 🇧🇷</p>
+            </div>
+            <div class="row">
+              <span class="row-label">Sep. 2025</span>
+              <p class="row-body">New preprint is out: <strong>SceneSplit</strong></p>
+            </div>
+            <div class="row">
+              <span class="row-label">May. 2025</span>
+              <p class="row-body">One paper accepted at <strong>ICML 2025</strong> 🇨🇦</p>
+            </div>
+            <div class="row">
+              <span class="row-label">Feb. 2025</span>
+              <p class="row-body">New preprint is out: <strong>ELITE</strong></p>
+            </div>
+            <div class="row">
+              <span class="row-label">Dec. 2024</span>
+              <p class="row-body">One paper accepted at <strong>AAAI 2025</strong> 🇺🇸</p>
+            </div>
           </div>
         </section>
         <section class="section" id="publications">
-          <h2>📝 Publications</h2>
+          <h2>Publications</h2>
           <div>
             <article class="card publication">
               <div class="pub-title">Safety-Aware Image-to-Image Translation without Paired Data</div>
@@ -499,46 +516,59 @@
         </section>
 
         <section class="section" id="experience">
-          <h2>💻 Experience</h2>
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-title">Research Collaboration - AIM Intelligence</div>
-              <div class="timeline-meta">Oct. 2024 – Present, Seoul, South Korea</div>
+          <h2>Experience</h2>
+          <div class="rows">
+            <div class="row">
+              <span class="row-label">Oct. 2024 – May. 2026</span>
+              <div>
+                <div class="row-title">Research Collaboration — AIM Intelligence</div>
+                <p class="row-sub">Seoul, South Korea</p>
+              </div>
             </div>
-            <div class="timeline-item">
-              <div class="timeline-title">Student Researcher - Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
-              <div class="timeline-meta">Mar. 2024 – Feb. 2026, Seoul, South Korea</div>
+            <div class="row">
+              <span class="row-label">Mar. 2024 – Feb. 2026</span>
+              <div>
+                <div class="row-title">Student Researcher — Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
+                <p class="row-sub">Seoul, South Korea</p>
+              </div>
             </div>
-            <div class="timeline-item">
-              <div class="timeline-title">Research Intern - Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
-              <div class="timeline-meta">Dec. 2022 – Jun. 2023, Seoul, South Korea</div>
+            <div class="row">
+              <span class="row-label">Dec. 2022 – Jun. 2023</span>
+              <div>
+                <div class="row-title">Research Intern — Center for Artificial Intelligence, Korea Institute of Science and Technology (KIST)</div>
+                <p class="row-sub">Seoul, South Korea</p>
+              </div>
             </div>
           </div>
         </section>
 
         <section class="info-row">
           <div class="plain-block" id="education">
-            <h2>📖 Education</h2>
-            <div class="plain-block-box">
-              <div class="plain-block-content">
-                <strong>Mar. 2024 - Feb. 2026:</strong> M.S. in Electrical and Electronic Engineering, Yonsei University
-                <div class="advisor-line">Advisor: Prof. <a href="https://scholar.google.com/citations?user=E6emHhkAAAAJ&hl=ko" target="_blank" rel="noreferrer">Suhyun Kim</a> and Prof. <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">Bumsub Ham</a></div>
+            <h2>Education</h2>
+            <div class="rows">
+              <div class="row">
+                <span class="row-label">Mar. 2024 – Feb. 2026</span>
+                <div>
+                  <div class="row-title">M.S. in Electrical and Electronic Engineering, Yonsei University</div>
+                  <p class="row-sub">Advisor: Prof. <a href="https://scholar.google.com/citations?user=E6emHhkAAAAJ&hl=ko" target="_blank" rel="noreferrer">Suhyun Kim</a> and Prof. <a href="https://cvlab.yonsei.ac.kr/" target="_blank" rel="noreferrer">Bumsub Ham</a></p>
+                </div>
               </div>
-              <div class="plain-block-content">
-                <strong>Mar. 2018 - Feb. 2024:</strong> B.S. in Software Convergence, Kyung Hee University
+              <div class="row">
+                <span class="row-label">Mar. 2018 – Feb. 2024</span>
+                <div>
+                  <div class="row-title">B.S. in Software Convergence, Kyung Hee University</div>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="plain-block" id="services">
-            <h2>🧾 Academic Services</h2>
-            <div class="plain-block-box">
-              <ul class="service-list">
-                <li>
-                  <span class="service-role">Reviewer</span>
-                  <div class="service-item"><strong>NeurIPS 2026</strong>, CVEU Workshop @ <strong>CVPR 2026</div>
-                </li>
-              </ul>
+            <h2>Academic Services</h2>
+            <div class="rows">
+              <div class="row">
+                <span class="row-label">Reviewer</span>
+                <p class="row-body">NeurIPS 2026, CVEU Workshop @ CVPR 2026</p>
+              </div>
             </div>
           </div>
         </section>
@@ -546,7 +576,7 @@
     </div>
 
     <footer>
-      Last updated Mar. 2026
+      Last updated Jul. 2026
     </footer>
   </main>
 </body>
